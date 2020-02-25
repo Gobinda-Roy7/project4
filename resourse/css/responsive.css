@@ -1,0 +1,54 @@
+@media screen and (max-width: 1200px) {
+ .row {
+   max-width: 1100px;
+   width: 100%;
+ }
+}
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+    h3 {
+  font-size: 160%;
+  padding: 20px;
+}
+h4 {
+  font-size: 110%;
+}
+    .hero-text-box span{
+     font-size: 150%;
+}
+    .hero-text-box h1 {
+    font-size: 200%;
+}
+    .hero-text-box p {
+  font-size: 100%;
+}
+    .hire-me img {
+  width: 50%;
+}
+    .hire-box h5 {
+  font-size: 70%;
+}
+    .hire-box p {
+  font-size: 50%;
+}
+    .working-box img {
+  width: 10%;
+}
+    .working p{
+        font-size: 70%;
+    }
+    .working-box p {
+  font-size: 50%;
+}
+    .education-box {
+  margin-left: 0px;
+}
+    .contact-box {
+  margin-left: 0px;
+}
+    .contact-address {
+  width: 100%;
+}
+}
