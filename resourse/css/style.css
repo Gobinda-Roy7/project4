@@ -6,12 +6,14 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  text-decoration: none;
 }
 html {
   font-family: 'Roboto';
   font-size: 20px;
   text-align: center;
+}
+a {
+  text-decoration: none;
 }
 ul {
   margin: 0;
@@ -20,6 +22,7 @@ ul {
 /*============*/
 /*REUSEABLE COMPONENTS*/
 /*============*/
+header,
 section,
 footer {
   padding: 50px 30px;
@@ -46,60 +49,12 @@ h4 {
 /*============*/
 /*HERO SECRTION*/
 /*============*/
-nav {
-  background: #2793ED;
-  height: 80px;
-  width: 100%;
-}
-.logo1 {
-  font-size: 100%;
-  float: left;
-  display: inline-block;
-  line-height: 80px;
-  margin: 15px 40px;
-}
-.gobinda {
-  text-align: center;
-  color: #fff;
-  font-size: 35px;
-  padding: 0 100px;
-  line-height: 80px;
-  font-weight: bold;
-}
-nav ul li {
-  margin-top: 20px;
-}
-nav ul li a {
-  color: #fff;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 7px;
-  padding: 7px 0px;
-  border-radius: 5px;
-  line-height: 50px;
-}
-a:hover {
-  background: #1b9bff;
-  transition: .5s;
-}
-.checkbtn {
-  font-size: 30px;
-  color: #fff;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-#check {
-  display: none;
-}
-/*============*/
-/*HERO SECRTION*/
-/*============*/
 .hero {
-  background: url('../../vendors/img/bg.jpg') no-repeat center /cover fixed;
+  background: url('../../vendors/img/bg.jpg') no-repeat center /cover;
   height: 100vh;
+}
+.logo {
+  margin-top: 50px;
 }
 .hero-text-box {
   color: #fff;
@@ -119,7 +74,7 @@ a:hover {
 }
 .hero-text-box hr {
   color: #fff;
-  width: 40%;
+  width: 60%;
   margin: auto;
 }
 .scroll-down a {
@@ -283,7 +238,7 @@ a:hover {
 /*CONTACT SECRTION*/
 /*============*/
 .contact {
-  background: url('../../vendors/img/bg3.jpg') no-repeat center /cover fixed;
+  background: url('../../vendors/img/bg3.jpg') no-repeat center /cover;
 }
 .contact-box {
   background-color: rgba(104, 100, 124, .5);
